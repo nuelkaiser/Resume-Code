@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+===============================
+FONT DISPLAY
+===============================
+*/
+
+h1,h2,h3,h4,h5,h6,p {
+    font-size: 18px;
+    font-style: normal;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+}
+
+
+.span-1 {
+    background-color: #fff;
+    height: 4px;
+    width: 80px;
+    display: block;
+}
+
+.span-2 {
+    background-color: #000;
+    height: 4px;
+    width: 44px;
+    display: block;
+}
+
+.span-3 {
+    border-left: 1px solid #000;
+    width: 40%;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.span-4 {
+    background-color: #000;
+    height: 4px;
+    width: 50px;
+    display: block;
+}
+
+.span-5 {
+    background-color: #000;
+    height: 4px;
+    width: 60px;
+    display: block;
+}
+
+.span-x {
+    background-color: #000;
+    height: 4px;
+    width: 75px;
+    display: block;
+}
+
+.header-display {
+    display: flex;
+    justify-content: center;
+}
+
+.role-display {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.img {
+    width: 24px;
+    margin-right: 1em;
+}
+
+.motive-origin {
+    height: 100vh;
+    background-color: #726E6D;
+    padding: 1px;
+}
+
+.flex-motive {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 5rem;
+    margin-top: 10em;
+}
+
+.flex-bias {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.flex-gap {
+    margin-right: 1em;
+}
+
+.bk-setting {
+    margin: 0;
+    padding: 5em;
+}
+
+.bk-color-1 {
+    background-color: #15317E;
+    color: white;
+}
+
+.bk-color-2 {
+    background-color: #fff;
+    color: rgb(17, 3, 3);
+}
+
+.little-note {
+    padding: 0em 0em;
+    padding-left: 0em;
+    margin-top: 1em;
+}
+
+.special-feat {
+    margin-top: 0.5em;
+    border: 1px solid #000;
+    padding: 10px 12px;
+    border-radius: 8px;
+    max-width: 20em;
+}
+
+.space {
+    margin-bottom: 0.5em;
+}
+
+.header-space {
+    margin-top: 0.5em;
+}
+
+
+
+@media (max-width: 1024px) {
+    .flex-motive {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10em;
+    }
+    h1,h2,h3,h4,h5,h6,p {
+        font-size: 22px;
+        font-style: normal;
+        font-family: "Poppins",Arial, Helvetica, sans-serif;
+    }   
+}
+
+@media (max-width: 768px) {
+    .flex-motive {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5em;
+    }
+    .bk-setting {
+        padding: 2em;
+    }
+}
+
+
+@media (max-width: 468px) {
+    .flex-motive {
+        margin: 0rem;
+    }
+   .res-center {
+       text-align: center;
+   }
+}
+
+
+@media (max-width: 320px) {
+    .bk-setting {
+        padding: 2rem;
+    }
+    .span-1 {
+        width: 250px;
+    }
+}
